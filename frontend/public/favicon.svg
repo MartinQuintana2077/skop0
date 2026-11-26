@@ -1,0 +1,28 @@
+<svg viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="skop0-mk" x1="6" y1="6" x2="58" y2="58" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#22d3ee"/>
+      <stop offset="100%" stop-color="#a855f7"/>
+    </linearGradient>
+    <linearGradient id="skop0-bg" x1="5" y1="5" x2="52" y2="52" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#172236"/>
+      <stop offset="100%" stop-color="#070c15"/>
+    </linearGradient>
+  </defs>
+  <!-- Back 3D Plate -->
+  <rect x="12" y="12" width="47" height="47" rx="13" fill="url(#skop0-mk)" fill-opacity="0.92"/>
+  <!-- Front Obsidian Plate -->
+  <rect x="5" y="5" width="47" height="47" rx="13" fill="url(#skop0-bg)" stroke="white" stroke-opacity="0.18" stroke-width="1.4"/>
+  <!-- Skop0 Emblem: Cero Escaner Italica Pura -14 deg -->
+  <g transform="translate(28.5 28.5) scale(0.62) translate(-32 -32)">
+    <g transform="translate(32 32) skewX(-14) translate(-32 -32)">
+      <rect x="17" y="11" width="30" height="42" rx="15"
+            fill="url(#skop0-mk)" fill-opacity="0.12"
+            stroke="url(#skop0-mk)" stroke-width="6.2"/>
+    </g>
+    <line x1="9" y1="47" x2="55" y2="17"
+          stroke="url(#skop0-mk)" stroke-width="4.8" stroke-linecap="round"/>
+    <circle cx="9" cy="47" r="3.2" fill="#22d3ee"/>
+    <circle cx="55" cy="17" r="3.2" fill="#a855f7"/>
+  </g>
+</svg>

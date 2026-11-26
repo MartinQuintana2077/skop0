@@ -1,0 +1,85 @@
+# =========================================
+# ENTORNOS VIRTUALES
+# =========================================
+venv/
+env/
+.venv/
+.env
+
+# =========================================
+# CREDENCIALES, LLAVES Y ADMINISTRACIÓN PRIVADA (NO SUBIR A GITHUB PÚBLICO)
+# =========================================
+firebase_admin.json
+*credentials*
+*.pem
+*.key
+.env.*
+backend/core/firebase_client.py
+admin_portal/
+backend/api/v1/endpoints/admin.py
+backend/grant_license.py
+backend/publish_update.py
+backend/services/license_service.py
+
+# =========================================
+# SCRIPTS INTERNOS DE EMPAQUETADO Y USO LOCAL
+# =========================================
+*.spec
+*.iss
+*.bat
+.vscode/
+.idea/
+*.suo
+*.user
+
+# =========================================
+# WORKFLOWS LEGACY Y DOCUMENTACIÓN INTERNA
+# =========================================
+workflows/
+workflow_exported.json
+documentacion/
+guia_instalacion_nueva_pc.md
+explanation_frontend.md
+
+# =========================================
+# COMPILADOS DE PYTHON
+# =========================================
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# =========================================
+# BASES DE DATOS LOCALES
+# =========================================
+*.sqlite3
+*.db
+secscan_local.db
+skop0_local.db
+
+# =========================================
+# FRONTEND — BUILD Y DEPENDENCIAS
+# =========================================
+frontend/node_modules/
+frontend/dist/
+node_modules/
+dist/
+
+# =========================================
+# SISTEMA OPERATIVO
+# =========================================
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# =========================================
+# LOGS & BUILDS
+# =========================================
+*.log
+logs/
+build/
+backend/build/
+backend/dist/
+dist_installer/
+redist/
+HomeAsis/

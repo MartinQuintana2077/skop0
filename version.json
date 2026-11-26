@@ -1,0 +1,8 @@
+{
+  "latest_version": "1.3.0",
+  "download_url": "https://github.com/MartinQuintana2077/secscan/releases/download/v1.3.0/Skop0_Setup_v1.3.0.exe",
+  "changelog": "• Nueva identidad oficial: Skop0 (by NoneIT) con emblema dinámico e icono Doble Placa 3D.\n• Arranque ultrarrápido (~9× más veloz) con carga diferida de Firebase/gRPC y binario liviano (-14 MB).\n• Motor de auditoría 5× más rápido (barrido ARP asíncrono + escaneo de puertos en 2 etapas).\n• Motor CVE NVD v2.3 preciso con deduplicación, caché TTL y límite de tasa global.\n• Clasificador de dispositivos v2, telemetría multi-fallback, cancelación instantánea y cierre limpio.",
+  "size_mb": 60.7,
+  "mandatory": false,
+  "published_at": "2026-11-24"
+}
