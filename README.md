@@ -19,15 +19,19 @@ Plataforma de escritorio y monitoreo de ciberseguridad de red que descubre dispo
 
 ## Capturas de Pantalla
 
-![Home](docs/screenshots/00_home.png)
+![Panel Principal — Skop0 v1.3.0](docs/screenshots/00_home.png)
 
-| Dashboard — Historial de Escaneos | Resultados — Lista de Dispositivos |
+| Acceso Corporativo (Login) | Topología Interactiva L2/L3 |
 |:---:|:---:|
-| ![Dashboard](docs/screenshots/01_dashboard.png) | ![Devices](docs/screenshots/02_devices.png) |
+| ![Login](docs/screenshots/00_login.png) | ![Topología](docs/screenshots/05_topology.png) |
 
-| Consola de Auditoría | Reporte de Vulnerabilidades |
+| Historial de Auditorías | Detalles y Lista de Dispositivos |
 |:---:|:---:|
-| ![Console](docs/screenshots/03_console.png) | ![Vulns](docs/screenshots/04_vulnerabilities.png) |
+| ![Historial](docs/screenshots/01_dashboard.png) | ![Dispositivos](docs/screenshots/02_devices.png) |
+
+| Consola de Auditoría en Tiempo Real | Reporte de Vulnerabilidades CVE & Telemetría |
+|:---:|:---:|
+| ![Consola](docs/screenshots/03_console.png) | ![Vulnerabilidades](docs/screenshots/04_vulnerabilities.png) |
 
 ---
 
